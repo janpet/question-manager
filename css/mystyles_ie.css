@@ -1,0 +1,39 @@
+
+
+
+
+    .buttons_list{text-align:center;}
+
+/* -------------------------------------------- */
+/* ------------------Font---------------------- */
+
+/*Add your font at here*/
+
+/* -------------------------------------------- */
+/* ------------------Style--------------------- */
+html, body {width:100%; padding:0; margin:0;}
+
+
+.clear{content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+a:hover{text-decoration:none; color:#ccc;}
+
+/* -------------------------------------------- */
+/* ------------------Old browser warning-------------------- */
+#oldb_bg{ display:none;}
+#oldbrowser{  display:none;}
+
+
+
+
+/* -------------------------------------------- */
+/* -------------------Main--------------- */
+
+.grid_3{} 
+
+.container_12{}
+
+ .icon-search{position:relative; right:28px; z-index:999; top:4px;}
+
+ .form-upit input.search-box{padding-top:8px; height:20px;}
+
+ 

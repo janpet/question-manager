@@ -1,0 +1,53 @@
+/*
+
+Text styles for Hybrid framework
+ 
+ */
+ 
+.bg {     }
+body {  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;   font-size: 14px;   line-height: 20px;   color: #333333;    }
+
+pre {    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;   font-size: 12px;  }
+
+textarea {   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; } 
+.navbar-search .search-query {    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;   font-size: 13px;   font-weight: normal;}
+ 
+ h1, h2, h3, h4, h5, h6 {   margin: 10px 0;   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;   font-weight: bold;   line-height: 20px;   color: inherit;   text-rendering: optimizelegibility; }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {   font-weight: normal;   line-height: 1;   color: #999999; }
+
+h1, h2, h3 {    line-height:10px;}
+
+h1 {   font-size: 34.5px;  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color:#555; } 
+h2 {   font-size: 31.5px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h3 {   font-size: 18.5px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color:#555; font-wight:normal;} 
+h4 {   font-size: 17.5px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h5 {   font-size: 14px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; } 
+h6 {   font-size: 11.9px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1 small {   font-size: 24.5px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; } 
+h2 small {   font-size: 17.5px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h3 small {   font-size: 14px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h4 small {   font-size: 14px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+
+a.white{color:#fff; text-decoration:none;  }
+a.white:hover{}
+.blue{}
+.btn-info:hover{}
+.bold{font-weight:bold;}
+
+.navigation ul{}
+.navigation ul li{}
+.navigation ul li a{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;   font-size: 18px;   line-height: 20px;   color: #555;}
+.navigation ul li a:hover{background:#fff;}
+.activelink{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px;  line-height: 20px;   color: #fff;}
+
+#boxes #dialog form label{}
+#boxes #dialog form input{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color:#555;}
+#boxes #dialog form select{}
+#boxes #dialog form textarea{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color:#555; font-size:16px;}
