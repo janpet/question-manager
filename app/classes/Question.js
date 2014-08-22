@@ -10,7 +10,7 @@ this.srchVal;
 
 
 
-
+  //GET QUESTIONS FROM DATABASE
 this.getQuestions =function getQuestions(){
     $.ajaxSetup({ cache: false });
   $('#mainQuestions').html(spinner);
@@ -68,7 +68,7 @@ this.getQuestions =function getQuestions(){
   }
 
 
-
+  //DELETE THE QUESTION
     this.searchTerm= function searchTerm(srchVal)
       {  
 
@@ -136,7 +136,7 @@ this.getQuestions =function getQuestions(){
 
 
 
-
+      //UPDATE THE QUESTION
      	this.updateQuestion=function updateQuestion(aId,aQuestion,aAnswer,aCid){
 
        // alert(aId+aQuestion+aAnswer+aCid);

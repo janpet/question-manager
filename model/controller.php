@@ -1,7 +1,12 @@
 <?php 
+
 require_once('config.php');
 require_once('classes/Question.php');
 require_once('classes/Category.php');
+
+
+//IF AJAX WAS SENT
+
 if(!isset($_POST['actionName'])) {	
 	print json_encode(0);
 	return;
@@ -9,9 +14,11 @@ if(!isset($_POST['actionName'])) {
 }
 
 else{
+
 $action = $_POST['actionName'];
 
 
+	//VARIOUS ACTIONS BASED ON THE TEXT THAT WAS SENT
 	switch ($action) {
 
 
@@ -111,16 +118,6 @@ $action = $_POST['actionName'];
 		  $category=new Category();		  
 		  $category-> updateCategory($ctneid,$ctnename);		  
 			break;	
-
-
-
-
-
-
-
-
-		
-
 
 
 		

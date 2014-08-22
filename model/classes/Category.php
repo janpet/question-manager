@@ -55,10 +55,9 @@ public function insertCategory($name){
 
 
 public function count_questionsinCategory($cdelid){
- $sql="SELECT count(*) FROM questions WHERE cid = '$cdelid' ";
-$STH = $this->pdo->query($sql);
-$row = $STH->fetch(PDO::FETCH_NUM);
-//echo $row[0];   ->TU SI NAPRAVIO SRANJEEE TREBA RADITI RETURN!!!! ECHO SAMO ZNACI DA TI NAPISE, A NE DA TI VRATI VRIJEDNOST!!!!
+   $sql="SELECT count(*) FROM questions WHERE cid = '$cdelid' ";
+   $STH = $this->pdo->query($sql);
+   $row = $STH->fetch(PDO::FETCH_NUM);
   return $row[0];
    }   
 
