@@ -1,4 +1,6 @@
  <?php 
+
+ //DODAMO NEŠTO
 if (mt_rand(0, 1) < 0.5) {
    echo "do 50%";
    $design_name="design1.css";
