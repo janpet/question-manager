@@ -7,9 +7,6 @@ this.answer;
 this.srchVal;
 
 
-
-
-
   //GET QUESTIONS FROM DATABASE
 this.getQuestions =function getQuestions(){
     $.ajaxSetup({ cache: false });
