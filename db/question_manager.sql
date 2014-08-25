@@ -71,7 +71,7 @@ INSERT INTO `questions` (`qid`, `cid`, `time`, `question`, `answer`) VALUES
 (6, 3, '2014-04-17', 'Culture question 2',''),
 (7, 4, '2014-04-25', 'Who won the last world cup ?', 'Germany won the last world cup'),
 (8, 4, '2014-05-03', 'Sport question 2 ?',''),
-(9, 5, '2014-05-19', 'Science question 1?', 'Science answer 1'),
+(9, 5, '2014-05-19', 'Science question 1?', 'Science answer 1');
 
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
