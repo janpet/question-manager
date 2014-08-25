@@ -19,8 +19,11 @@ SET time_zone = "+00:00";
 --
 -- Database: `question_manager`
 --
+CREATE DATABASE question_manager;
 
 -- --------------------------------------------------------
+
+USE question_manager;
 
 --
 -- Table structure for table `categories`
