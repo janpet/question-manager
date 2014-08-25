@@ -157,7 +157,18 @@ this.getQuestions =function getQuestions(){
         
                   
             var currentcatvalue = $( "select#categories-section option:selected" ).val();                
-            category.listselectCategory(currentcatvalue); 
+            var category=new Category();
+
+                if(currentcatvalue==0){
+
+                  question.getQuestions();
+                  
+                  category.categoriesList();
+
+                }
+                else{           
+                category.listselectCategory(currentcatvalue); 
+              }
        
 
            },
@@ -183,8 +194,19 @@ this.delQuestion=function delQuestion(delId){
              data: {id: delId, actionName:"delete_question"},
              success: function (data) {
                //   $('#mainQuestions').html(data);//iterate here the object
-                var currentcatvalue = $( "select#categories-section option:selected" ).val();               
+                var currentcatvalue = $( "select#categories-section option:selected" ).val(); 
+                 var category=new Category();
+
+                if(currentcatvalue==0){
+
+                  question.getQuestions();
+                  
+                  category.categoriesList();
+
+                }
+                else{           
                 category.listselectCategory(currentcatvalue); 
+              }
              },
              error: function( req, status, err ) {
             console.log( 'something went wrong', status, err );
