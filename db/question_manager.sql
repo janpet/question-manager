@@ -68,11 +68,11 @@ INSERT INTO `questions` (`qid`, `cid`, `time`, `question`, `answer`) VALUES
 (3, 2, '2014-03-20', 'What is the capital of Portugal ?', 'Capital of Portugal is Lisabon'),
 (4, 2, '2014-04-02', 'How many states are part of European Union', 'European Union has 28 members'),
 (5, 3, '2014-04-09', 'Name the most famous painting in the world', 'The most famous painting is Mona Lisa by Leonardo da Vinci'),
-(6, 3, '2014-04-17', 'Culture question 2'),
+(6, 3, '2014-04-17', 'Culture question 2',''),
 (7, 4, '2014-04-25', 'Who won the last world cup ?', 'Germany won the last world cup'),
-(8, 4, '2014-05-03', 'Sport question 2 ?'),
+(8, 4, '2014-05-03', 'Sport question 2 ?',''),
 (9, 5, '2014-05-19', 'Science question 1?', 'Science answer 1'),
-(10, 5, '2014-06-10', 'Science question 2?')
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
