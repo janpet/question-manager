@@ -261,10 +261,10 @@ ul.topLinks li a:hover{color:#999;}
   display:none;
   top: 15px;
   z-index: 999;
-  width:60%;
+  width:40%;
   max-width: 960px;
   min-width: 600px;
-  height: 80%;
+  min-height: 300px;
   overflow: auto;
   background: #fff;
   margin: 0 auto;
@@ -277,9 +277,9 @@ overflow: hidden;
     -webkit-border-radius: 8px;  -moz-border-radius: 8px;  border-radius: 8px;
 }
 .jmodal-top{}
-.jmodal-content{margin-top:50px; padding:15px; height:inherit; overflow: auto;}
-
-.jmodal-content h1{text-align: center;}
+.jmodal-content{margin-top:30px; padding:10px; height:inherit; overflow: auto;}
+.jmodal-text{line-height: 25px;}
+.jmodal-content h1{text-align: center; font-size:1.4em;}
 
 a.modalCloseImg {background:url(../img/x-close.gif) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:10px; right:8px; cursor:pointer;}
 

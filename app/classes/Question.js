@@ -65,7 +65,7 @@ this.getQuestions =function getQuestions(){
   }
 
 
-  //DELETE THE QUESTION
+  //SEARCH QUESTION
     this.searchTerm= function searchTerm(srchVal)
       {  
 
@@ -156,7 +156,8 @@ this.getQuestions =function getQuestions(){
            // location.reload();    
         
                   
-          question.getQuestions();
+            var currentcatvalue = $( "select#categories-section option:selected" ).val();                
+            category.listselectCategory(currentcatvalue); 
        
 
            },
@@ -182,7 +183,8 @@ this.delQuestion=function delQuestion(delId){
              data: {id: delId, actionName:"delete_question"},
              success: function (data) {
                //   $('#mainQuestions').html(data);//iterate here the object
-                question.getQuestions();
+                var currentcatvalue = $( "select#categories-section option:selected" ).val();               
+                category.listselectCategory(currentcatvalue); 
              },
              error: function( req, status, err ) {
             console.log( 'something went wrong', status, err );
@@ -216,7 +218,9 @@ this.delQuestion=function delQuestion(delId){
                //  $('#mainQuestions').html(data);     
                             
         //  location.reload();
-              	  question.getQuestions();
+              	 question.getQuestions();
+                   var category=new Category();
+                  category.categoriesList();
                  
                  
            

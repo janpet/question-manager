@@ -433,18 +433,20 @@ event.preventDefault();
     });
 
 
+// Modals - 'help' and 'about'
+
 $('#modalAbout, #modalAbout-mob').click(function(){
 
   $('.jan-modal-bg').fadeIn();
-    $('#jmodal-help').fadeIn();
+    $('#jmodal-about').fadeIn();
 
 });
 
 
 $('#modalHelp, #modalHelp-mob').click(function(){
-
-  $('.jan-modal-bg').fadeIn();
-    $('#jmodal-about').fadeIn();
+ $('.jan-modal-bg').fadeIn();
+    $('#jmodal-help').fadeIn();
+ 
 
 });
 

@@ -1,4 +1,83 @@
 
+    <div class="jan-modal-bg"></div>
+
+    
+      <!-- MODAL ABOUT-->
+    <div class="jan-modal-wrapper">
+
+
+       <div class="jan-modal-container"  id="jmodal-about">
+
+         <div class="jmodal-top"><a href="#"  class="modalCloseImg janmodal-close"></a></div>
+
+         <div class="jmodal-content">
+             
+          
+          <h1>About</h1>
+
+         <br/>  
+          <p class="jmodal-text text-center">
+     
+
+         This is the simple practice app for managing questions and answers. It uses JQuery, Ajax, PHP and Bootstrap for UI. <br/> <br/> App is free it and you can use it anyway you like.
+              <br/>   <br/>Author : <a href="mailto:janko2p@gmail.com">Janko Prester</a>
+                <br/>Web Site : <a href="http://www.jankoprester.com">Janko Prester Portfolio</a>
+               <br/>   <br/> Find it on Github.com <br/><br/> 
+               <a href="https://github.com/janpet/question-manager"><img src="img/blacktocat.png" width="55" height="55"></a>        
+
+
+         </p>
+
+         </div>
+
+       
+      </div>
+
+    </div>
+
+
+
+  <!-- MODAL HELP-->
+
+   <div class="jan-modal-bg">  </div>
+ 
+    <div class="jan-modal-wrapper">
+
+
+       <div class="jan-modal-container"  id="jmodal-help">
+
+         <div class="jmodal-top"><a href="#"  class="modalCloseImg janmodal-close"></a></div>
+
+         <div class="jmodal-content">
+             
+          
+          <h1>Help</h1>
+            <br />
+          <br />
+
+         <strong> SEARCH :</strong>  Search question by the keyword. If you leave the field empty it will search all questions.
+          <br /><br />
+           <strong> NEW QUESTION :</strong>  Inserts new question. Choose category, write question and answer. You are not requied to write answer immediately, you can do it later. Until then, question will remain unanswered.
+            <br /><br />
+            <strong> SELECT CATEGORY : </strong>  You can select various question categories. Last in the list is the "new category" link, which opens the form where you can edit, delete or inesert new category. (NOTE: in order to delete category, you have to delete all questions from this category!)
+            <br /><br />
+
+               <strong> LIST ALL/ANSWERED/UNANSWERED : </strong>  List questions depending if they are answered or not.
+            <br /><br />
+
+              <strong> OPEN ANSWER : </strong>  In order to see the answer just click on the  question, and the answer will open below.
+            <br /><br />
+             <strong> EDIT QUESTION : </strong>  You can edit the chooesn question if you click on the button "edit" . In the new window you can change category, and/or edit question and answer.
+            <br /><br />
+         </div>
+
+       
+      </div>
+
+    </div>
+
+
+
 
 <!-- MODAL CHECK ACTION-->
 

@@ -301,63 +301,8 @@
 
 
 
-
-  <div class="jan-modal-bg"></div>
-
     
-      <!-- MODAL ABOUT-->
-    <div class="jan-modal-wrapper">
-
-
-       <div class="jan-modal-container"  id="jmodal-about">
-
-         <div class="jmodal-top"><a href="#"  class="modalCloseImg janmodal-close"></a></div>
-
-         <div class="jmodal-content">
-             
-          
-          <h1>Help</h1>
-            <br />
-          <br /><br />
-         
-
-         </div>
-
-       
-      </div>
-
-    </div>
-
-
-
-
     
-      <!-- MODAL HELP-->
-
-   <div class="jan-modal-bg">  </div>
- 
-    <div class="jan-modal-wrapper">
-
-
-       <div class="jan-modal-container"  id="jmodal-help">
-
-         <div class="jmodal-top"><a href="#"  class="modalCloseImg janmodal-close"></a></div>
-
-         <div class="jmodal-content">
-             
-          
-          <h1>Help</h1>
-            <br />
-          <br /><br />
-         
-
-         </div>
-
-       
-      </div>
-
-    </div>
-
 
 <script type="text/javascript" src="lib/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="lib/jquery.easing.1.3.js"></script>

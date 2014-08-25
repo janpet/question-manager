@@ -37,11 +37,11 @@ CREATE TABLE IF NOT EXISTS `categories` (
 --
 
 INSERT INTO `categories` (`cid`, `name`) VALUES
-(1, 'povijest'),
-(2, 'sport'),
-(3, 'kultura'),
-(4, 'politika'),
-(5, 'znanost');
+(1, 'economy'),
+(2, 'politics'),
+(3, 'culture'),
+(4, 'sport'),
+(5, 'science');
 
 -- --------------------------------------------------------
 
@@ -63,15 +63,16 @@ CREATE TABLE IF NOT EXISTS `questions` (
 --
 
 INSERT INTO `questions` (`qid`, `cid`, `time`, `question`, `answer`) VALUES
-(1, 1, '2014-04-01', 'Prvo pitanjeee', 'Odgovor na prvo pitanje3'),
-(2, 2, '2014-03-12', 'Kaj ima lima?', 'Ima svašta stari'),
-(4, 3, '2014-05-20', 'Da li sam u pravu?', 'Jesam, naravno!'),
-(6, 4, '2014-05-20', 'Koji je glavni grad Hrvatske?', 'Naravno da je Zagreb! '),
-(9, 4, '2014-05-20', ' aaaaaaaaaaaaa', ' bbbbbbbbb'),
-(10, 3, '2014-05-20', 'pppppp', ' aaaaa'),
-(13, 2, '2014-05-20', ' uuuuu', ' eeeeeeee'),
-(14, 5, '2014-05-20', ' znanstveno pitanje', ' znanstveni odgovor'),
-(15, 1, '2014-05-20', ' jebenica2', ' hdfrew');
+(1, 1, '2014-02-04', 'Who is the richest man in the world ?', 'The richest man is Bill Gates'),
+(2, 1, '2014-02-12', 'What is the name if currency in Japan', "Japanese currency is named Yen"),
+(3, 2, '2014-03-20', 'What is the capital of Portugal ?', 'Capital of Portugal is Lisabon'),
+(4, 2, '2014-04-02', 'How many states are part of European Union', 'European Union has 28 members'),
+(5, 3, '2014-04-09', 'Name the most famous painting in the world', 'The most famous painting is Mona Lisa by Leonardo da Vinci'),
+(6, 3, '2014-04-17', 'Culture question 2'),
+(7, 4, '2014-04-25', 'Who won the last world cup ?', 'Germany won the last world cup'),
+(8, 4, '2014-05-03', 'Sport question 2 ?'),
+(9, 5, '2014-05-19', 'Science question 1?', 'Science answer 1'),
+(10, 5, '2014-06-10', 'Science question 2?')
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
