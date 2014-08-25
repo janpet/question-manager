@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `knowledgebase`
+-- Database: `question_manager`
 --
 
 -- --------------------------------------------------------
@@ -64,7 +64,7 @@ CREATE TABLE IF NOT EXISTS `questions` (
 
 INSERT INTO `questions` (`qid`, `cid`, `time`, `question`, `answer`) VALUES
 (1, 1, '2014-02-04', 'Who is the richest man in the world ?', 'The richest man is Bill Gates'),
-(2, 1, '2014-02-12', 'What is the name if currency in Japan', "Japanese currency is named Yen"),
+(2, 1, '2014-02-12', 'What is the name if currency in Japan', 'Japanese currency is named Yen'),
 (3, 2, '2014-03-20', 'What is the capital of Portugal ?', 'Capital of Portugal is Lisabon'),
 (4, 2, '2014-04-02', 'How many states are part of European Union', 'European Union has 28 members'),
 (5, 3, '2014-04-09', 'Name the most famous painting in the world', 'The most famous painting is Mona Lisa by Leonardo da Vinci'),
